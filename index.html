@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>MyTransit</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__content">
+				<div class="header__logo">
+					<a href="#"><img src="img/logo.png" alt="logo"></a>
+				</div>
+				<nav class="header__menu">
+					<ul class="topmenu">
+						<li><a href="#">О нас</a></li>
+						<li><a href="#" class="active">Услуги<span class="fa fa-angle-down"></span></a>
+							<ul class="submenu">
+								<li><a href="#">Таможенный транзит и обеспечение</a></li>
+								<li><a href="#">Таможенное оформление</a></li>
+								<li><a href="#">Международные грузоперевозки<span class="fa fa-angle-down"></span></a>
+									<ul class="submenu">
+										<li><a href="#">Автомобильные</a></li>
+										<li><a href="#">ЖД перевозки</a></li>
+										<li><a href="#">Морские перевозки</a></li>
+										<li><a href="#">Авиаперевозки</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="#">MyTransit</a></li>
+					</ul>
+				</nav>
+				<div class="header__contacts">
+					<div class="header__number">
+						<a class="header__phone" href="tel:88008000880">8 800 800 08 80</a>
+					</div>
+					<div class="header__lang">
+						<div class="dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+							<div class="dropbtn">Ru</div>
+							<div class="dropdown-content" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+								<a href="#">En</a>
+								<a href="#">Arb</a>
+							</div>
+						</div>
+					</div>
+					<div class="header__btn">
+						<div id="openModal" class="modal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<p class="modal-title">8 800 888 88 88</p>
+										<p class="modal-subtitle">Свяжитесь с нами и начните работать уже сейчас</p>
+										<a href="#close" title="Close" class="close">×</a>
+									</div>
+									<div class="modal-body">
+										<ul>
+											<li>Содержание</li>
+											<li>Содержание</li>
+											<li>Содержание</li>
+											<li>Содержание</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#openModal" class="header__link">Связаться с нами</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="video">
+		<div class="video-bg">
+			<video src="../video/pexels-fearless-dreams-5598972 (2160p) (1).mp4" type="video/mp4" autoplay muted
+				loop></video>
+			<div class="effects"></div>
+			<div class="video-bg__content">
+				<h1 class="video__title">
+					INDITAL транзит
+				</h1>
+				<p class="video__subtitle">
+					Обеспечение, оформление, логистика
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="services">
+		<div class="container">
+			<h2 class="services__title">
+				Наши услуги
+			</h2>
+			<div class="services__contents">
+				<div class="services__icon">
+					<img src="../img/service-1.svg" alt="">
+				</div>
+				<div class="services__content">
+					<div class="services__texts">
+						<p class="services__texts-title">
+							Таможенный транзит и обеспечение
+						</p>
+						<p class="services__text">
+							Беспрепятственно перевозите товары через границы с помощью наших экспертных услуг по оформлению
+							таможенного транзита.<br><br>
+							Мы гарантируем, что ваше транспортное средство будет оформлено максимально оперативно и
+							беспрепятственно пересечет границу.
+						</p>
+					</div>
+					<a class="services__btn" href="#">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="portal">
+		<div class="container">
+			<div class="portal__row">
+				<div class="portal__glav">
+					<p class="portal__title">
+						Портал MyTransit
+					</p>
+					<p class="portal__subtitle">
+						Ощутите удобство, как никогда прежде, с нашим порталом MyTransit.
+					</p>
+				</div>
+				<div class="portal__img">
+					<img src="../img/portal-img1.png" alt="">
+				</div>
+				<div class="portal__lists">
+					<div class="portal__list">
+						<div class="portal__list-item">
+							<div class="portal__list-number">
+								01
+							</div>
+							<div class="portal__list-text">
+								Контролируйте свои поставки, получайте доступ к информации о ценах, проверяйте таможенный статус
+								и многое другое — все на одной безопасной и удобной платформе.
+							</div>
+						</div>
+						<div class="portal__list-item">
+							<div class="portal__list-number">
+								02
+							</div>
+							<div class="portal__list-text">
+								Присоединяйтесь к рядам довольных клиентов, которые полагаются на INDITAL в решении своих
+								таможенных и транспортных задач. Начните сегодня с MyTransit.
+							</div>
+						</div>
+					</div>
+					<a href="#" class="portal__list-link">Подробнее</a>
+				</div>
+				<div class="portal__statics">
+					<div class="portal__static">
+						<div class="portal__static-item">
+							<div class="portal__static-texts">
+								<p class="portal__static-title">
+									Наглядная аналитика
+								</p>
+								<p class="portal__static-text">
+									Удобный дашборд со всей необходимой информацией.
+								</p>
+							</div>
+							<div class="portal__static-img">
+								<div class="portal__static-min">
+									<img src="../img/portal-min.png" alt="">
+								</div>
+								<div class="portal__static-big">
+									<img src="../img/portal-big.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portal__static">
+						<div class="portal__static-item">
+							<div class="portal__static-texts">
+								<p class="portal__static-title">
+									Полная прозрачность
+								</p>
+								<p class="portal__static-text">
+									Возможность отслеживать все этапы перевозки от поступления заявки до завершение транзита
+								</p>
+							</div>
+							<div class="portal__static-img">
+								<div class="portal__static-min">
+									<img src="../img/portal-min.png" alt="">
+								</div>
+								<div class="portal__static-big">
+									<img src="../img/portal-big.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portal__static">
+						<div class="portal__static-item">
+							<div class="portal__static-texts">
+								<p class="portal__static-title">
+									Удобная отчетность
+								</p>
+								<p class="portal__static-text">
+									Счета и отчеты всегда под рукой
+								</p>
+							</div>
+							<div class="portal__static-img">
+								<div class="portal__static-min">
+									<img src="../img/portal-min.png" alt="">
+								</div>
+								<div class="portal__static-big">
+									<img src="../img/portal-big.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portal__detailed">
+					<p class="portal__detailed-text">
+						Ощутите удобство, как никогда прежде, с нашим порталом MyTransit.
+					</p>
+					<a href="#" class="portal__list-link">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews">
+		<div class="container">
+			<div class="reviews__row">
+				<div class="reviews__title">
+					<p>Отзывы</p>
+				</div>
+				<div class="reviews__list">
+					<div class="revies__list-left">
+						<div class="reviews__item">
+							<div class="reviews__item-title">
+								<div class="reviews__item-title-author">
+									<p class="reviews__author">
+										Евгений Онегин
+									</p>
+									<p class="reviews__author-grupp">
+										Таня групп
+									</p>
+								</div>
+								<div class="reviews__item-title-logo">
+									<img src="../img/reviews-logo.png" alt="">
+								</div>
+							</div>
+							<div class="reviews__item-text">
+								<p>
+									Ощутите удобство, как никогда прежде, с нашим порталом MyTransit. Контролируйте свои
+									поставки, получайте доступ к информации о ценах, проверяйте таможенный статус и многое другое
+									— все на одной безопасной и удобной платформе.
+								</p>
+							</div>
+						</div>
+						<div class="reviews__item">
+							<div class="reviews__item-title">
+								<div class="reviews__item-title-author">
+									<p class="reviews__author">
+										Евгений Онегин
+									</p>
+									<p class="reviews__author-grupp">
+										Таня групп
+									</p>
+								</div>
+								<div class="reviews__item-title-logo">
+									<img src="../img/reviews-logo.png" alt="">
+								</div>
+							</div>
+							<div class="reviews__item-text">
+								<p>
+									Ощутите удобство, как никогда прежде, с нашим порталом MyTransit. Контролируйте свои
+									поставки, получайте доступ к информации о ценах, проверяйте таможенный статус и многое другое
+									— все на одной безопасной и удобной платформе.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="revies__list-right">
+						<div class="reviews__item">
+							<div class="reviews__item-title">
+								<div class="reviews__item-title-author">
+									<p class="reviews__author">
+										Евгений Онегин
+									</p>
+									<p class="reviews__author-grupp">
+										Таня групп
+									</p>
+								</div>
+								<div class="reviews__item-title-logo">
+									<img src="../img/reviews-logo.png" alt="">
+								</div>
+							</div>
+							<div class="reviews__item-text">
+								<p>
+									Ощутите удобство, как никогда прежде, с нашим порталом MyTransit. Контролируйте свои
+									поставки, получайте доступ к информации о ценах, проверяйте таможенный статус и многое другое
+									— все на одной безопасной и удобной платформе.
+								</p>
+							</div>
+						</div>
+						<div class="reviews__item">
+							<div class="reviews__item-title">
+								<div class="reviews__item-title-author">
+									<p class="reviews__author">
+										Евгений Онегин
+									</p>
+									<p class="reviews__author-grupp">
+										Таня групп
+									</p>
+								</div>
+								<div class="reviews__item-title-logo">
+									<img src="../img/reviews-logo.png" alt="">
+								</div>
+							</div>
+							<div class="reviews__item-text">
+								<p>
+									Ощутите удобство, как никогда прежде, с нашим порталом MyTransit. Контролируйте свои
+									поставки, получайте доступ к информации о ценах, проверяйте таможенный статус и многое другое
+									— все на одной безопасной и удобной платформе.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="office">
+		<div class="container">
+			<div class="office__row">
+				<div class="office__title">
+					<p>Наши офисы</p>
+				</div>
+				<div class="office__content">
+					<div class="office__content-texts">
+						<p class="office__content-city">
+							Латвия
+						</p>
+						<p class="office__content-text">
+							Небольшое описание вашего прекрасного офиса
+						</p>
+					</div>
+					<div class="office__content-img">
+						<img src="../img/office.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="form">
+		<div class="container">
+			<div class="form__row">
+				<div class="form__top">
+					<div class="form__title">
+						Оставьте заявку
+					</div>
+					<div class="form__text">
+						Свяжитесь с нами сегодня, чтобы узнать, как наш опыт может упростить ваш логистический путь
+					</div>
+				</div>
+				<div class="form__conetnt">
+					<form action="#" method="post" class="input-form">
+						<input type="text" id="firstName" name="firstName" placeholder="Имя" required>
+						<input type="text" id="lastName" name="lastName" placeholder="Фамилия" required>
+						<input type="email" id="email" name="email" placeholder="Email" required>
+						<input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+						<input type="submit" value="Отправить" class="form__btn">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__row">
+				<div class="footer__top">
+					<div class="footer__logo">
+						<img src="../img/logo.png" alt="">
+					</div>
+					<div class="footer__menu">
+						Меню
+					</div>
+					<div class="footer__menu">
+						Меню
+					</div>
+					<div class="footer__menu">
+						Меню
+					</div>
+				</div>
+				<div class="footer__content">
+					<ul class="footer__content-list">
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">My Transit</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+					<ul class="footer__content-list">
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">My Transit</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+					<ul class="footer__content-list">
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">My Transit</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="footer__policy">
+					<div class="footer__rights">
+						<a href="#">@2023 Все права там что-то</a>
+					</div>
+					<div class="footer__cookie">
+						<a href="#">Privacy Policy</a>
+						<a href="#">Cookie Policy</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="../js/main.js"></script>
+</body>
+
+</html>
